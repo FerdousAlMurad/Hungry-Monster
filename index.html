@@ -7,9 +7,10 @@
     <title> Hungry Monster </title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
 </head>
+
 <body>
-    
     <section>
         <header class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -36,18 +37,19 @@
             <section>
                 <section class="search-bg pt-5">
                     <div class="container d-flex justify-content-center">
-                        <input id="input-values" type="text" class="form-control w-50 d-inline" placeholder="search for meal">
+                        <input id="input-fields" type="text" class="form-control w-50 d-inline" placeholder="search for meal">
                         <button id="search-btn" class="btn btn-success ms-1">Search</button>
                     </div>
                     <h5 id="input-validation" class="text-center text-danger"></h5>
                 </section>
             </section>
-
-            <section class="ingredient-card container-lg w-25 card shadow d-flex justify-content-center" id="ingredients-area">
+            
+            <section class="ingredient-card container-lg w-25 card shadow d-flex justify-content-center" id="ingredients-fields">
+            </section>
+            
+            <section id="meal-items-field" class="rounded-3 p-5 d-flex flex-wrap justify-content-center">
             </section>
 
-            <section id="meal-items-area" class="rounded-3 p-5 d-flex flex-wrap justify-content-center">
-            </section>
  <script src="main.js"></script>
 </body>
 </html>
